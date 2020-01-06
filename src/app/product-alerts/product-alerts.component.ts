@@ -11,7 +11,8 @@ export class ProductAlertsComponent implements OnInit {
 
   @Input() product;
   @Output() notify = new EventEmitter();
-  
+  @Output() test_event = new EventEmitter();
+
 
   constructor() { }
 
